@@ -3,3 +3,6 @@
 
 en:
   hello: "Hello world"
+  cadastrar: "CADASTRAR"
+  sucesso:
+    cadastro: "Você foi cadastrado com sucesso!"
