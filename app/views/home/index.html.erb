@@ -10,13 +10,13 @@
 <!-- Header -->
 <div class="container">
   <div class="masthead">
-    <a href="#" class="top-logo-link">
-      <img src="assets/logo_loompa.png" class="top-logo" alt="Loompa logo">
+    <a href="http://loompa.herokuapp.com/" class="top-logo-link">
+      <%= image_tag 'logo_loompa.png', class: 'top-logo' %>
     </a>
     <ul class="nav nav-pills pull-right top-nav" style="margin-top: 19px;">
-      <li class="top-nav-item"><a href="#">HOME</a></li>
-      <li class="top-nav-item"><a href="#">SERVIÇOS</a></li>
-      <li class="top-nav-item"><a href="#">CONTATO</a></li>
+      <li class="top-nav-item"><a href="http://loompa.herokuapp.com/">HOME</a></li>
+      <li class="top-nav-item"><a href="#porque-loompa">COMO FUNCIONA</a></li>
+      <li class="top-nav-item"><a href="mailto:contato@loompa.me">CONTATO</a></li>
     </ul>
   </div>
 </div>
@@ -24,30 +24,27 @@
 
 <!-- Form -->
 
-<div id="myCarousel" class="carousel slide">
-  <div class="carousel-inner">
-    <div class="item" id="carousel-slide-01">
-      <div class="container">
-        <div class="carousel-caption">
-        </div>
-      </div>
-    </div>
-    <div class="item active" id="carousel-slide-02">
-      <div class="container">
-        <div class="carousel-caption" id="winkcamera-caption">
-        </div>
-      </div>
-    </div>
+<div class="form">
+
+  <div class="cadastro">
+      <h4>Cadastre-se para saber quando começaremos as nossas atividades e ainda receba novidades e promoções.</h4>
+      <%= form_for @cadastrado, :url => {:controller => 'cadastrado', :action => 'create'} do |c| %>
+
+        <%= c.text_field :nome, :class => 'inputs', :placeholder => 'NOME', :required => 'required' %><br/>
+        <%= c.text_field :email, :class => 'inputs', :placeholder => 'E-MAIL', :required => 'required' %><br/>
+
+        <%= c.submit t(:cadastrar), :class => 'btn btn-primary inputs' %><br />
+        <span style="color: lawngreen"><%= flash[:sucesso] %></span>
+      <% end %>
   </div>
-  <a class="left carousel-control" href="#myCarousel" data-slide="prev">‹</a>
-  <a class="right carousel-control" href="#myCarousel" data-slide="next">›</a>
+
 </div>
 
 <!-- Fim - Form -->
 
 <!-- Porque o Loompa -->
 
-<div class="container">
+<div class="container" id="porque-loompa">
 
   <div class="row porque-loompa">
 
@@ -59,17 +56,17 @@
     </div>
 
     <div class="span4">
-      <img src="assets/icone_1.png">
+      <%= image_tag 'icone_11.png' %>
       <h2>Busque</h2>
       <p>Busca simples e intuitiva. Em poucos passos o que procura está na tela.</p>
     </div>
     <div class="span4">
-      <img src="assets/icone_2.png">
+      <%= image_tag 'icone_22.png' %>
       <h2>Encontre</h2>
       <p>Os melhores serviços para você. Resultados rápidos e separados por qualificação.</p>
     </div>
     <div class="span4">
-      <img src="assets/icone_3.png">
+      <%= image_tag 'icone_33.png' %>
       <h2>Contrate</h2>
       <p>Veja as opções de contato e contrate o serviço mais qualificado para você.</p>
     </div>
@@ -87,24 +84,24 @@
       <div class="span3">
         <h2>Loompa.me</h2>
         <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Serviços</a></li>
-          <li><a href="#">Contato</a></li>
+          <li><a href="http://loompa.herokuapp.com/">Home</a></li>
+          <li><a href="#porque-loompa">Como Funciona</a></li>
+          <li><a href="mailto:contato@loompa.me">Contato</a></li>
         </ul>
       </div>
       <div class="span3">
         <h2>Conecte</h2>
         <ul>
-          <li class="sociallogo"><a href="#"><img src="assets/twitter.png" alt="Twitter"></a></li>
-          <li class="sociallogo"><a href="#"><img src="assets/facebook.png" alt="Facebook"></a></li>
-          <li class="sociallogo"><a href="#"><img src="assets/linkedin.png" alt="LinkedIn"></a></li>
+          <li class="sociallogo"><a href="https://twitter.com/loompame" target="_blank"><%= image_tag 'twitter.png' %></a></li>
+          <li class="sociallogo"><a href="https://www.facebook.com/pages/Loompa/238290909659606" target="_blank"><%= image_tag 'facebook.png' %></a></li>
+          <li class="sociallogo"><a href="http://www.linkedin.com/company/3366736" target="_blank"><%= image_tag 'linkedin.png' %></a></li>
         </ul>
       </div>
       <div class="span4"> &nbsp; </div>
       <div class="span9 border">Copyright © 2013 - Loompa.me - Todos os direitos reservados.</div>
 
       <div class="fb-like-box"
-           data-href="https://www.facebook.com/soservicos"
+           data-href="https://www.facebook.com/pages/Loompa/238290909659606"
            data-width="The pixel width of the plugin"
            data-height="The pixel height of the plugin"
            data-colorscheme="dark"
@@ -117,6 +114,25 @@
     </div>
   </div>
 </div>
+
+<script>
+
+    $(document).ready(function(){
+        $('a[href^="#"]').on('click',function (e) {
+            e.preventDefault();
+
+            var target = this.hash,
+                    $target = $(target);
+
+            $('html, body').stop().animate({
+                'scrollTop': $target.offset().top
+            }, 900, 'swing', function () {
+                window.location.hash = target;
+            });
+        });
+    });
+
+</script>
 
 
 <!-- Fim - Footer -->
