@@ -1,13 +1,3 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project version="4">
-  <component name="DataSourceManagerImpl" format="xml" hash="1849758528">
-    <data-source source="LOCAL" name="Rails loompa_landing: development" product="" version="" jdbc-version="" driver-name="" driver-version="" uuid="a8b58f44-861f-4cea-9452-68d115a2f54b">
-      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
-      <jdbc-url>jdbc:postgresql:servicos</jdbc-url>
-      <user-name>servicos</user-name>
-      <user-password>dfd9dfcfdfd8dfdcdfc3dfc9dfc5dff9dfeadf92df9adf92</user-password>
-      <libraries />
-    </data-source>
-  </component>
-</project>
+<project version="4" />
 

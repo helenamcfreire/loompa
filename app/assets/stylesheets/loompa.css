@@ -18,7 +18,7 @@ input:-moz-placeholder { padding-left: 12px }
 
 
 .form {
-    background: url('../assets/banner.jpg') no-repeat center center;
+    background: url('../assets/slide_1.jpg') no-repeat center center;
   	-webkit-background-size: cover;
 	-o-background-size: cover;
 	-moz-background-size: cover;
@@ -27,12 +27,99 @@ input:-moz-placeholder { padding-left: 12px }
 	margin-top: 20px;
 }
 
+.title, .subtitle {
+    margin-left: 115px;
+    padding-top: 47px;
+    font-size: 67.5px;
+    font-weight: bold;
+    text-shadow: 0 -1px 1px rgba(0,0,0,0.6);
+}
+
+.subtitle {
+    margin-top: 10px;
+}
+
 .cadastro {
-    width: 358px;
+    width: 368px;
     float: right;
     text-shadow: 0 -1px 1px rgba(0,0,0,0.6);
-    margin-right: 162px;
-    margin-top: 286px;
+    margin-right: 99px;
+    margin-top: 145px;
+}
+
+/* Ajustando o layout para resoluções até 1440px */
+@media (max-width: 1680px) {
+
+    .title, .subtitle {
+        margin-left: 83px;
+        font-size: 57.5px;
+    }
+
+    .subtitle {
+        margin-top: -5px;
+    }
+
+    .cadastro {
+        width: 355px;
+        margin-right: 35px;
+        margin-top: 175px;
+    }
+}
+
+/* Ajustando o layout para resoluções até 1440px */
+@media (max-width: 1440px) {
+
+    .title, .subtitle {
+        margin-left: 41px;
+        font-size: 47.5px;
+    }
+
+    .subtitle {
+        margin-top: -18px;
+    }
+
+    .cadastro {
+        width: 300px;
+        margin-right: 35px;
+    }
+}
+
+/* Ajustando o layout para resoluções até 1152px */
+@media (max-width: 1152px) {
+
+    .title, .subtitle {
+        margin-left: 41px;
+        font-size: 40.5px;
+    }
+
+    .subtitle {
+        margin-top: -18px;
+    }
+
+    .cadastro {
+        width: 240px;
+        margin-right: 10px;
+        margin-top: 292px;
+    }
+}
+
+/* Ajustando o layout para resoluções até 1152px */
+@media (max-width: 1024px) {
+
+    .title, .subtitle {
+        margin-left: 41px;
+        font-size: 34.5px;
+    }
+
+    .subtitle {
+        margin-top: -18px;
+    }
+
+    .cadastro {
+        width: 240px;
+        margin-right: 10px;
+        margin-top: 292px;
+    }
 }
 
 .inputs {
