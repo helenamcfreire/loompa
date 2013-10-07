@@ -1,17 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="92469d40-3aa5-4062-b92d-ad24a9f89fdb" name="Default" comment="Retirando o envio de e-mail">
-      <change type="DELETED" beforePath="C:\Users\Helena\Projetos\Ruby\loompa\app\assets\javascripts\notifier.js.coffee" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Helena\Projetos\Ruby\loompa\app\assets\stylesheets\notifier.css.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Helena\Projetos\Ruby\loompa\app\controllers\notifier_controller.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Helena\Projetos\Ruby\loompa\app\helpers\notifier_helper.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Helena\Projetos\Ruby\loompa\test\functional\notifier_controller_test.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Helena\Projetos\Ruby\loompa\test\unit\helpers\notifier_helper_test.rb" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/migrate/20131005215115_create_cadastrados.rb" afterPath="$PROJECT_DIR$/db/migrate/20131005215115_create_cadastrados.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/cadastrado.rb" afterPath="$PROJECT_DIR$/app/models/cadastrado.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/environments/development.rb" afterPath="$PROJECT_DIR$/config/environments/development.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/home_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/home_controller.rb" />
+    <list default="true" id="92469d40-3aa5-4062-b92d-ad24a9f89fdb" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/home/index.html.erb" afterPath="$PROJECT_DIR$/app/views/home/index.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -20,14 +10,14 @@
     <file path="/application.css" changelist="92469d40-3aa5-4062-b92d-ad24a9f89fdb" time="1381173365633" ignored="false" />
     <file path="/a.dummy" changelist="92469d40-3aa5-4062-b92d-ad24a9f89fdb" time="1381176653584" ignored="false" />
     <file path="/Gemfile" changelist="92469d40-3aa5-4062-b92d-ad24a9f89fdb" time="1380994414572" ignored="false" />
-    <file path="/Dummy.txt" changelist="92469d40-3aa5-4062-b92d-ad24a9f89fdb" time="1381178509631" ignored="false" />
+    <file path="/Dummy.txt" changelist="92469d40-3aa5-4062-b92d-ad24a9f89fdb" time="1381178543541" ignored="false" />
     <file path="/index.html" changelist="92469d40-3aa5-4062-b92d-ad24a9f89fdb" time="1380995297031" ignored="false" />
     <file path="/loompa.css" changelist="92469d40-3aa5-4062-b92d-ad24a9f89fdb" time="1381167438204" ignored="false" />
     <file path="/production.rb" changelist="92469d40-3aa5-4062-b92d-ad24a9f89fdb" time="1381001459564" ignored="false" />
     <file path="/application.js" changelist="92469d40-3aa5-4062-b92d-ad24a9f89fdb" time="1381162926962" ignored="false" />
     <file path="/home_controller.rb" changelist="92469d40-3aa5-4062-b92d-ad24a9f89fdb" time="1381177557225" ignored="false" />
     <file path="/routes.rb" changelist="92469d40-3aa5-4062-b92d-ad24a9f89fdb" time="1380998337532" ignored="false" />
-    <file path="/index.html.erb" changelist="92469d40-3aa5-4062-b92d-ad24a9f89fdb" time="1381178410652" ignored="false" />
+    <file path="/index.html.erb" changelist="92469d40-3aa5-4062-b92d-ad24a9f89fdb" time="1381178961640" ignored="false" />
     <file path="/cadastrado.rb" changelist="92469d40-3aa5-4062-b92d-ad24a9f89fdb" time="1381176072883" ignored="false" />
     <file path="/20131005215115_create_cadastrados.rb" changelist="92469d40-3aa5-4062-b92d-ad24a9f89fdb" time="1381176118676" ignored="false" />
     <file path="/cadastrado_controller.rb" changelist="92469d40-3aa5-4062-b92d-ad24a9f89fdb" time="1381012119578" ignored="false" />
@@ -95,9 +85,9 @@
         <option value="$PROJECT_DIR$/app/controllers/notifier_controller.rb" />
         <option value="$PROJECT_DIR$/app/controllers/home_controller.rb" />
         <option value="$PROJECT_DIR$/config/environments/development.rb" />
-        <option value="$PROJECT_DIR$/app/views/home/index.html.erb" />
         <option value="$PROJECT_DIR$/app/models/cadastrado.rb" />
         <option value="$PROJECT_DIR$/db/migrate/20131005215115_create_cadastrados.rb" />
+        <option value="$PROJECT_DIR$/app/views/home/index.html.erb" />
       </list>
     </option>
   </component>
@@ -534,7 +524,11 @@
       <created>1381178145423</created>
       <updated>1381178145423</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Retirando o envio de e-mail">
+      <created>1381178551443</created>
+      <updated>1381178551443</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -562,7 +556,7 @@
     <editor active="false" />
     <layout>
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32934782" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.5684783" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25652173" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32934782" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32934782" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.15314835" sideWeight="0.67065215" order="3" side_tool="false" content_ui="tabs" />
@@ -624,7 +618,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Inserindo o contato e fazendo outros ajustes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Retirando o envio de e-mail" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -642,6 +636,7 @@
     <MESSAGE value="landing page 8" />
     <MESSAGE value="Ajustando o css da landing" />
     <MESSAGE value="Inserindo o contato e fazendo outros ajustes" />
+    <MESSAGE value="Retirando o envio de e-mail" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -731,13 +726,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/home/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="133" column="31" selection-start="4354" selection-end="4354" vertical-scroll-proportion="0.54953915">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/db/migrate/20131005215115_create_cadastrados.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="7" column="0" selection-start="145" selection-end="145" vertical-scroll-proportion="0.3207547">
@@ -748,6 +736,13 @@
     <entry file="file://$PROJECT_DIR$/app/models/cadastrado.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="31" selection-start="70" selection-end="70" vertical-scroll-proportion="0.091644205">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/home/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="148" column="34" selection-start="4832" selection-end="4832" vertical-scroll-proportion="0.43037975">
           <folding />
         </state>
       </provider>
