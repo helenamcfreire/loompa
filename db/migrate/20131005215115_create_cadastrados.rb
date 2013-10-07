@@ -5,7 +5,6 @@ class CreateCadastrados < ActiveRecord::Migration
 
       t.string :nome
       t.string :email
-      t.text   :mensagem
 
       t.timestamps
 

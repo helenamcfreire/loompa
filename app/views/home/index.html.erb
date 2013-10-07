@@ -130,15 +130,9 @@
       <div class="span3">
         <h2>Contato</h2>
 
-
-        <%= form_for @cadastrado, :url => {:controller => 'home', :action => 'sendmail'} do |e| %>
-
-            <%= e.text_field :nome, :placeholder => 'Nome', :required => 'required' %>
-            <%= e.text_field :email, :placeholder => 'E-mail', :required => 'required' %>
-            <%= e.text_area :mensagem, :placeholder => 'Mensagem', :required => 'required', :rows => '3' %>
-
-            <%= e.submit t(:enviar), :class => 'btn btn-primary' %>
-        <% end %>
+        <ul>
+          <li>contato@loompa.me</li>
+        </ul>
 
       </div>
 
