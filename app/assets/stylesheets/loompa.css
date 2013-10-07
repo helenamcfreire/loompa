@@ -27,7 +27,8 @@ input:-moz-placeholder { padding-left: 12px }
 	margin-top: 20px;
 }
 
-.title, .subtitle {
+.form h1 {
+    line-height: 94px;
     margin-left: 115px;
     padding-top: 47px;
     font-size: 67.5px;
@@ -35,8 +36,9 @@ input:-moz-placeholder { padding-left: 12px }
     text-shadow: 0 -1px 1px rgba(0,0,0,0.6);
 }
 
-.subtitle {
-    margin-top: 10px;
+.form h1 i {
+    background: url('../assets/bt.png') repeat;
+    font-style: normal;
 }
 
 .cadastro {
@@ -44,81 +46,78 @@ input:-moz-placeholder { padding-left: 12px }
     float: right;
     text-shadow: 0 -1px 1px rgba(0,0,0,0.6);
     margin-right: 99px;
-    margin-top: 145px;
+    margin-top: 0;
 }
 
-/* Ajustando o layout para resoluções até 1440px */
+.cadastro h4 {
+    line-height: 25px;
+}
+
+.cadastro h4 i {
+    background: url('../assets/bt.png') repeat;
+    font-style: normal;
+}
+
+/* Ajustando o layout para resoluções até 1680px */
 @media (max-width: 1680px) {
 
-    .title, .subtitle {
+    .form h1 {
         margin-left: 83px;
         font-size: 57.5px;
-    }
-
-    .subtitle {
-        margin-top: -5px;
+        line-height: 80px;
     }
 
     .cadastro {
         width: 355px;
         margin-right: 35px;
-        margin-top: 175px;
     }
 }
 
 /* Ajustando o layout para resoluções até 1440px */
 @media (max-width: 1440px) {
 
-    .title, .subtitle {
+    .form h1 {
         margin-left: 41px;
         font-size: 47.5px;
-    }
-
-    .subtitle {
-        margin-top: -18px;
+        line-height: 66px;
     }
 
     .cadastro {
         width: 300px;
         margin-right: 35px;
+        margin-top: 70px;
     }
 }
 
 /* Ajustando o layout para resoluções até 1152px */
 @media (max-width: 1152px) {
 
-    .title, .subtitle {
+    .form h1 {
         margin-left: 41px;
         font-size: 40.5px;
-    }
-
-    .subtitle {
-        margin-top: -18px;
+        line-height: 57px;
     }
 
     .cadastro {
         width: 240px;
         margin-right: 10px;
-        margin-top: 292px;
+        margin-top: 175px;
     }
 }
 
-/* Ajustando o layout para resoluções até 1152px */
+/* Ajustando o layout para resoluções até 1024px */
 @media (max-width: 1024px) {
 
-    .title, .subtitle {
+    .form h1 {
         margin-left: 41px;
         font-size: 34.5px;
-    }
-
-    .subtitle {
-        margin-top: -18px;
+        line-height: 48px;
     }
 
     .cadastro {
         width: 240px;
         margin-right: 10px;
-        margin-top: 292px;
+        margin-top: 175px;
     }
 }
 

@@ -1,6 +1,10 @@
 ---
 banner.jpg: banner-cf8b67e5749de162728f3e26e280e87a.jpg
 banner/index.jpg: banner-cf8b67e5749de162728f3e26e280e87a.jpg
+bg-title.png: bg-title-d183fd9a7af8f30b338714c04e54c8fb.png
+bg-title/index.png: bg-title-d183fd9a7af8f30b338714c04e54c8fb.png
+bt.png: bt-385295aa0993f5a2ab40a14f5f468d12.png
+bt/index.png: bt-385295aa0993f5a2ab40a14f5f468d12.png
 facebook.png: facebook-7cf36f80cc2bdb67b51e2c737e006d8d.png
 facebook/index.png: facebook-7cf36f80cc2bdb67b51e2c737e006d8d.png
 glyphicons-halflings-white.png: glyphicons-halflings-white-6cccd17a7aed91dbc0157d343c68c0d9.png
@@ -31,9 +35,9 @@ slide_2.jpg: slide_2-987bcb7e2af71e9c478ddecd504b866a.jpg
 slide_2/index.jpg: slide_2-987bcb7e2af71e9c478ddecd504b866a.jpg
 twitter.png: twitter-4a9181ef5ffe3f072632e7590543ba80.png
 twitter/index.png: twitter-4a9181ef5ffe3f072632e7590543ba80.png
-application.js: application-732b1dc12584485d459257465f1850f6.js
-application/index.js: application-732b1dc12584485d459257465f1850f6.js
-application.css: application-9b62d80115170e519fbec3f50053e938.css
-application/index.css: application-9b62d80115170e519fbec3f50053e938.css
+application.js: application-b8d710439d7607129b5ae18c36cc1fa2.js
+application/index.js: application-b8d710439d7607129b5ae18c36cc1fa2.js
+application.css: application-63879d4c08362fe004f0dbfc1605e466.css
+application/index.css: application-63879d4c08362fe004f0dbfc1605e466.css
 jquery.min.map: jquery.min-6336c5bca4c709e809647cdfcb484d0a.map
 jquery/index.min.map: jquery.min-6336c5bca4c709e809647cdfcb484d0a.map

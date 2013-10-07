@@ -1,4 +1,18 @@
 <div id="fb-root"></div>
+
+<!-- Google Analytics -->
+<script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-44647291-1', 'loompa.me');
+    ga('send', 'pageview');
+
+</script>
+
+<!-- Facebook iframe -->
 <script>(function(d, s, id) {
     var js, fjs = d.getElementsByTagName(s)[0];
     if (d.getElementById(id)) return;
@@ -14,9 +28,9 @@
       <%= image_tag 'logo_loompa.png', class: 'top-logo' %>
     </a>
     <ul class="nav nav-pills pull-right top-nav" style="margin-top: 19px;">
-      <li class="top-nav-item"><a href="http://loompa.herokuapp.com/">HOME</a></li>
+      <li class="top-nav-item"><a href="http://loompa.me/">HOME</a></li>
       <li class="top-nav-item"><a href="#porque-loompa">COMO FUNCIONA</a></li>
-      <li class="top-nav-item"><a href="mailto:contato@loompa.me">CONTATO</a></li>
+      <li class="top-nav-item"><a href="#footer">CONTATO</a></li>
     </ul>
   </div>
 </div>
@@ -26,11 +40,23 @@
 
 <div class="form">
 
-  <div class="title">Busque serviços.</div>
-  <div class="subtitle">Encontre facilidades.</div>
+  <h1>
+    <i>Busque serviços.</i>
+    <br/>
+    <i>Encontre facilidades.</i>
+  </h1>
+
+  <div class="title"></div>
+  <div class="subtitle"></div>
 
   <div class="cadastro">
-      <h4>Cadastre-se para saber quando começaremos as nossas atividades e ainda receba novidades e promoções.</h4>
+      <h4>
+        <i>Cadastre-se para saber quando</i>
+        <br/>
+        <i>começaremos as nossas atividades e</i>
+        <br/>
+        <i>ainda receba novidades e promoções.</i>
+      </h4>
       <%= form_for @cadastrado, :url => {:controller => 'cadastrado', :action => 'create'} do |c| %>
 
         <%= c.text_field :nome, :class => 'inputs', :placeholder => 'NOME', :required => 'required' %><br/>
@@ -81,46 +107,69 @@
 
 <!-- Footer -->
 
-<div class="footer">
+<div class="footer" id="footer">
   <div class="container">
     <div class="row">
       <div class="span3">
         <h2>Loompa.me</h2>
         <ul>
-          <li><a href="http://loompa.herokuapp.com/">Home</a></li>
+          <li><a href="http://loompa.me/">Home</a></li>
           <li><a href="#porque-loompa">Como Funciona</a></li>
-          <li><a href="mailto:contato@loompa.me">Contato</a></li>
+          <li><a href="#footer">Contato</a></li>
         </ul>
       </div>
       <div class="span3">
         <h2>Conecte</h2>
         <ul>
           <li class="sociallogo"><a href="https://twitter.com/loompame" target="_blank"><%= image_tag 'twitter.png' %></a></li>
-          <li class="sociallogo"><a href="https://www.facebook.com/pages/Loompa/238290909659606" target="_blank"><%= image_tag 'facebook.png' %></a></li>
+          <li class="sociallogo"><a href="https://www.facebook.com/soservicos" target="_blank"><%= image_tag 'facebook.png' %></a></li>
           <li class="sociallogo"><a href="http://www.linkedin.com/company/3366736" target="_blank"><%= image_tag 'linkedin.png' %></a></li>
         </ul>
       </div>
+
+      <div class="span3">
+        <h2>Contato</h2>
+
+
+        <%= form_for @cadastrado, :url => {:controller => 'home', :action => 'sendmail'} do |e| %>
+
+            <%= e.text_field :nome, :placeholder => 'Nome', :required => 'required' %>
+            <%= e.text_field :email, :placeholder => 'E-mail', :required => 'required' %>
+            <%= e.text_area :mensagem, :placeholder => 'Mensagem', :required => 'required', :rows => '3' %>
+
+            <%= e.submit t(:enviar), :class => 'btn btn-primary' %>
+        <% end %>
+
+      </div>
+
+      <div class="span3">
+        <div class="fb-like-box"
+             data-href="https://www.facebook.com/soservicos"
+             data-width="The pixel width of the plugin"
+             data-height="The pixel height of the plugin"
+             data-colorscheme="dark"
+             data-show-faces="true"
+             data-header="true"
+             data-stream="false"
+             data-show-border="true"
+             style="margin-left: 90px"></div>
+      </div>
+
+
       <div class="span4"> &nbsp; </div>
       <div class="span9 border">Copyright © 2013 - Loompa.me - Todos os direitos reservados.</div>
-
-      <div class="fb-like-box"
-           data-href="https://www.facebook.com/pages/Loompa/238290909659606"
-           data-width="The pixel width of the plugin"
-           data-height="The pixel height of the plugin"
-           data-colorscheme="dark"
-           data-show-faces="true"
-           data-header="true"
-           data-stream="false"
-           data-show-border="true"
-           style="margin-top: -50px"></div>
 
     </div>
   </div>
 </div>
 
+<!-- Fim - Footer -->
+
+<!-- Smooth anchor -->
 <script>
 
     $(document).ready(function(){
+
         $('a[href^="#"]').on('click',function (e) {
             e.preventDefault();
 
@@ -133,9 +182,7 @@
                 window.location.hash = target;
             });
         });
+
     });
 
 </script>
-
-
-<!-- Fim - Footer -->

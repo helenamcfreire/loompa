@@ -26,6 +26,7 @@ ActiveRecord::Schema.define(:version => 20131005215115) do
   create_table "cadastrados", :force => true do |t|
     t.string   "nome"
     t.string   "email"
+    t.text     "mensagem"
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
   end
