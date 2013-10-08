@@ -63,7 +63,7 @@
         <%= c.text_field :email, :class => 'inputs', :placeholder => 'E-MAIL', :required => 'required' %><br/>
 
         <%= c.submit t(:cadastrar), :class => 'btn btn-primary inputs' %><br />
-        <span style="color: lawngreen"><%= flash[:sucesso] %></span>
+        <span class="msg-sucesso"><%= flash[:sucesso] %></span>
       <% end %>
   </div>
 
