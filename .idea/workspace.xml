@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="92469d40-3aa5-4062-b92d-ad24a9f89fdb" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/home/index.html.erb" afterPath="$PROJECT_DIR$/app/views/home/index.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="loompa_landing.iws" />
@@ -9,7 +10,7 @@
     <file path="/application.css" changelist="92469d40-3aa5-4062-b92d-ad24a9f89fdb" time="1381173365633" ignored="false" />
     <file path="/a.dummy" changelist="92469d40-3aa5-4062-b92d-ad24a9f89fdb" time="1381176653584" ignored="false" />
     <file path="/Gemfile" changelist="92469d40-3aa5-4062-b92d-ad24a9f89fdb" time="1380994414572" ignored="false" />
-    <file path="/Dummy.txt" changelist="92469d40-3aa5-4062-b92d-ad24a9f89fdb" time="1381241884109" ignored="false" />
+    <file path="/Dummy.txt" changelist="92469d40-3aa5-4062-b92d-ad24a9f89fdb" time="1381243987552" ignored="false" />
     <file path="/index.html" changelist="92469d40-3aa5-4062-b92d-ad24a9f89fdb" time="1380995297031" ignored="false" />
     <file path="/loompa.css" changelist="92469d40-3aa5-4062-b92d-ad24a9f89fdb" time="1381241134490" ignored="false" />
     <file path="/production.rb" changelist="92469d40-3aa5-4062-b92d-ad24a9f89fdb" time="1381001459564" ignored="false" />
@@ -30,6 +31,7 @@
     <file path="$PROJECT_DIR$/../../CloneProjects/loompa/app/views/layouts/application.html.erb" changelist="92469d40-3aa5-4062-b92d-ad24a9f89fdb" time="1381241007829" ignored="false" />
     <file path="$PROJECT_DIR$/../../CloneProjects/loompa/app/assets/stylesheets/loompa.css" changelist="92469d40-3aa5-4062-b92d-ad24a9f89fdb" time="1381241345468" ignored="false" />
     <file path="$PROJECT_DIR$/../../CloneProjects/loompa/app/views/home/index.html.erb" changelist="92469d40-3aa5-4062-b92d-ad24a9f89fdb" time="1381241381561" ignored="false" />
+    <file path="$PROJECT_DIR$/../../CloneProjects/loompa/.idea/workspace.xml" changelist="92469d40-3aa5-4062-b92d-ad24a9f89fdb" time="1381244093194" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,28 +55,7 @@
     <favorites_list name="loompa_landing" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="loompa.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/loompa.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="194" column="0" selection-start="3229" selection-end="3367" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html.erb" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/views/home/index.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="65" column="14" selection-start="2212" selection-end="2231" vertical-scroll-proportion="0.7495961">
-              <folding>
-                <element signature="n#style#0;n#div#0;n#div#3;n#div#0;n#div#0;n#div#4;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -110,8 +91,8 @@
         <option value="$PROJECT_DIR$/app/models/cadastrado.rb" />
         <option value="$PROJECT_DIR$/db/migrate/20131005215115_create_cadastrados.rb" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/home/index.html.erb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/loompa.css" />
+        <option value="$PROJECT_DIR$/app/views/home/index.html.erb" />
       </list>
     </option>
   </component>
@@ -209,38 +190,6 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="loompa_landing" />
               <option name="myItemType" value="org.jetbrains.plugins.ruby.rails.projectView.v2.nodes.RailsModuleNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="loompa" />
-              <option name="myItemType" value="org.jetbrains.plugins.ruby.rails.projectView.v2.nodes.RailsProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="loompa_landing" />
-              <option name="myItemType" value="org.jetbrains.plugins.ruby.rails.projectView.v2.nodes.RailsModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Assets" />
-              <option name="myItemType" value="org.jetbrains.plugins.ruby.rails.projectView.v2.nodes.folders.AssetsTopLevelFolderNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="loompa" />
-              <option name="myItemType" value="org.jetbrains.plugins.ruby.rails.projectView.v2.nodes.RailsProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="loompa_landing" />
-              <option name="myItemType" value="org.jetbrains.plugins.ruby.rails.projectView.v2.nodes.RailsModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Assets" />
-              <option name="myItemType" value="org.jetbrains.plugins.ruby.rails.projectView.v2.nodes.folders.AssetsTopLevelFolderNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Images" />
-              <option name="myItemType" value="org.jetbrains.plugins.ruby.rails.projectView.v2.nodes.folders.AssetsPredefinedGroupFolderNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -542,7 +491,11 @@
       <created>1381241615271</created>
       <updated>1381241615271</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Alterando o layout da msg de sucesso">
+      <created>1381241919111</created>
+      <updated>1381241919111</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -570,12 +523,12 @@
     <editor active="false" />
     <layout>
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32934782" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25652173" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3728261" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32934782" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32934782" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.15314835" sideWeight="0.67065215" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25987193" sideWeight="0.74347824" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25987193" sideWeight="0.6271739" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32934782" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -700,7 +653,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="15" column="18" selection-start="659" selection-end="659" vertical-scroll-proportion="0.2852349">
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -756,17 +709,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/loompa.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="194" column="0" selection-start="3229" selection-end="3367" vertical-scroll-proportion="0.0">
+        <state line="194" column="0" selection-start="3229" selection-end="3367" vertical-scroll-proportion="0.8098434">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/home/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="65" column="14" selection-start="2212" selection-end="2231" vertical-scroll-proportion="0.7495961">
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#3;n#div#0;n#div#0;n#div#4;n#!!top" expanded="true" />
-          </folding>
+        <state line="26" column="0" selection-start="914" selection-end="914" vertical-scroll-proportion="0.5169591">
+          <folding />
         </state>
       </provider>
     </entry>
