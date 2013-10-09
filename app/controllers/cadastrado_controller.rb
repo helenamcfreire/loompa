@@ -8,4 +8,8 @@ class CadastradoController < ApplicationController
       redirect_to root_url
   end
 
+  def list
+      @cadastrados = Cadastrado.all
+  end
+
 end
