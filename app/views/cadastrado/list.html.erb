@@ -1,0 +1,30 @@
+<div class="container">
+
+  <table class="table table-striped">
+    <thead>
+    <tr>
+      <th>Nome</th>
+      <th>E-mail</th>
+    </tr>
+    </thead>
+    <tbody>
+    <% @cadastrados.each do |cadastrado| %>
+        <tr>
+          <td><%= cadastrado.nome %></td>
+          <td><%= cadastrado.email %></td>
+        </tr>
+    <% end %>
+    </tbody>
+  </table>
+
+
+</div>
+
+<script>
+
+    $(document).ready(function(){
+        $("html body").css('background-color', 'white');
+        $("html body").css('color', 'black');
+    });
+
+</script>
