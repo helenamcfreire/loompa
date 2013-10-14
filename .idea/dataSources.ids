@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="dataSourceStorage">
+  <data-source source="LOCAL" name="Rails loompa_landing: development" product="" version="" jdbc-version="" driver-name="" driver-version="" uuid="ea29e714-2230-4845-bd4d-bf9207f55830">
+    <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+    <jdbc-url>jdbc:postgresql:servicos</jdbc-url>
+    <user-name>servicos</user-name>
+    <user-password>dfd9dfcfdfd8dfdcdfc3dfc9dfc5dff9dfeadf92df9adf92</user-password>
+    <libraries/>
+  </data-source>
+</component>

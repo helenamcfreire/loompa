@@ -31,6 +31,10 @@ logo_loompa.png: logo_loompa-78ae2be3dedd240ce69178ddbbb84803.png
 logo_loompa/index.png: logo_loompa-78ae2be3dedd240ce69178ddbbb84803.png
 rails.png: rails-a3386665c05a2d82f711a4aaa72d247c.png
 rails/index.png: rails-a3386665c05a2d82f711a4aaa72d247c.png
+sala.jpg: sala-199024a8e24476aa5998d4b3161d7daf.jpg
+sala/index.jpg: sala-199024a8e24476aa5998d4b3161d7daf.jpg
+sala2.jpg: sala2-a2d7d511ab2bacdc92725ef65840a6b4.jpg
+sala2/index.jpg: sala2-a2d7d511ab2bacdc92725ef65840a6b4.jpg
 slide_1.jpg: slide_1-855c453a1620778327dc7c2bd2543e1d.jpg
 slide_1/index.jpg: slide_1-855c453a1620778327dc7c2bd2543e1d.jpg
 slide_2.jpg: slide_2-987bcb7e2af71e9c478ddecd504b866a.jpg
@@ -39,7 +43,7 @@ twitter.png: twitter-4a9181ef5ffe3f072632e7590543ba80.png
 twitter/index.png: twitter-4a9181ef5ffe3f072632e7590543ba80.png
 application.js: application-0e7d35e47979442d27b264eb53ebca97.js
 application/index.js: application-0e7d35e47979442d27b264eb53ebca97.js
-application.css: application-fd966c3ee229d8e02cfd7d303aa23e09.css
-application/index.css: application-fd966c3ee229d8e02cfd7d303aa23e09.css
+application.css: application-9302856e47ff465858af02add5ed51b2.css
+application/index.css: application-9302856e47ff465858af02add5ed51b2.css
 jquery.min.map: jquery.min-6336c5bca4c709e809647cdfcb484d0a.map
 jquery/index.min.map: jquery.min-6336c5bca4c709e809647cdfcb484d0a.map
