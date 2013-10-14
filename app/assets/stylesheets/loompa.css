@@ -1,39 +1,199 @@
 body {
-    font-family: 'Open Sans', serif, Verdana, sans-serif;
-    background: url('../assets/sala2.jpg') no-repeat;
+    padding-top: 25px;
+    color: #fff;
+    background-color: #0092CB;
+    font-family: 'Open Sans';
+    line-height:215%;
+}
+
+.top-nav a {
+    color: #fff;
+    font-weight: 700;
+}
+
+::-webkit-input-placeholder { padding-left: 12px }
+::-moz-placeholder { padding-left: 12px } /* firefox 19+ */
+:-ms-input-placeholder { padding-left: 12px } /* ie */
+input:-moz-placeholder { padding-left: 12px }
+
+
+.form {
+    background: url('../assets/slide_1.jpg') no-repeat center center;
     -webkit-background-size: cover;
     -o-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
+    height: 769px;
+    margin-top: 20px;
 }
 
-.container {
-    margin-top: 130px;
-    width: 500px;
-    font-size: 1.4em;
+.form h1 {
+    line-height: 94px;
+    margin-left: 115px;
+    padding-top: 47px;
+    font-size: 67.5px;
     font-weight: bold;
-    line-height: 32px;
+    text-shadow: 0 -1px 1px rgba(0,0,0,0.6);
+}
+
+.form h1 i {
+    background: url('../assets/bt.png') repeat;
+    font-style: normal;
+}
+
+.cadastro {
+    width: 368px;
+    float: right;
+    text-shadow: 0 -1px 1px rgba(0,0,0,0.6);
+    margin-right: 99px;
+    margin-top: 0;
+}
+
+.cadastro h4 {
+    line-height: 25px;
+}
+
+.cadastro h4 i {
+    background: url('../assets/bt.png') repeat;
+    font-style: normal;
+}
+
+/* Ajustando o layout para resoluções até 1680px */
+@media (max-width: 1680px) {
+
+    .form h1 {
+        margin-left: 83px;
+        font-size: 57.5px;
+        line-height: 80px;
+    }
+
+    .cadastro {
+        width: 355px;
+        margin-right: 35px;
+    }
+}
+
+/* Ajustando o layout para resoluções até 1440px */
+@media (max-width: 1440px) {
+
+    .form h1 {
+        margin-left: 41px;
+        font-size: 47.5px;
+        line-height: 66px;
+    }
+
+    .cadastro {
+        width: 300px;
+        margin-right: 35px;
+        margin-top: 70px;
+    }
+}
+
+/* Ajustando o layout para resoluções até 1152px */
+@media (max-width: 1152px) {
+
+    .form h1 {
+        margin-left: 41px;
+        font-size: 40.5px;
+        line-height: 57px;
+    }
+
+    .cadastro {
+        width: 240px;
+        margin-right: 10px;
+        margin-top: 175px;
+    }
+}
+
+/* Ajustando o layout para resoluções até 1024px */
+@media (max-width: 1024px) {
+
+    .form h1 {
+        margin-left: 41px;
+        font-size: 34.5px;
+        line-height: 48px;
+    }
+
+    .cadastro {
+        width: 240px;
+        margin-right: 10px;
+        margin-top: 175px;
+    }
+}
+
+.inputs {
+    padding: 12px 0 12px 0!important;
+    width: 100%!important;
+    text-align: center!important;
+}
+
+.porque-loompa {
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.porque-loompa .span4, .porque-loompa .span12 {
     text-align: center;
-    background-color: rgba(0, 0, 0, 0.839216);
-    border-radius: 6px;
-    padding: 30px;
-    color: #ffffff;
 }
 
-.container span {
-    font-style: italic;
-    font-size: 0.7em;
-    font-weight: normal;
+.porque-loompa .span12 {
+    margin-bottom: 60px
 }
 
-.container input[type=text] {
-    width: 275px;
+.porque-loompa p {
+    font-size:21px
 }
 
-.container input, .container button {
-    padding: 15px;
+.footer {
+    background-color: #3E454D;
+}
+
+.footer .container {
+    padding:50px 0 10px;
+    color:#c2c2C2;
+}
+
+.footer	 a {
+    color:#ffffff;
+}
+
+.footer .span3 h2 {
+    color:#c2c2C2;
+    padding-bottom:10px;
+    font:20px/140% 'Proxima', Arial, sans-serif;
+}
+
+.footer ul  {
+    list-style:none;
+    margin:0;
+}
+.footer ul li {
+    font:14px/140% 'Proxima', Arial, sans-serif;
+}
+
+.footer ul li a {
+    color:#aeaeae
+}
+
+.footer ul li a:hover {
+    color:#fff
+}
+
+.footer .border {
+    padding:20px 0 10px 0;
+    clear:left;
+    margin-top:20px;
+}
+
+.sociallogo {
+    display: inline;
+    margin-right: 5px;
+    -webkit-transition: none;
+    -webkit-backface-visibility: hidden;
 }
 
 .msg-sucesso {
-    font-style: normal;
+    background: url('../assets/bg-title.png') repeat;
+    text-shadow: 0 -1px 1px rgba(0,0,0,0.6);
+    font-weight: bold;
 }

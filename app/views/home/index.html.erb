@@ -1,3 +1,5 @@
+<div id="fb-root"></div>
+
 <!-- Google Analytics -->
 <script>
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -10,20 +12,171 @@
 
 </script>
 
+<!-- Facebook iframe -->
+<script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/pt_BR/all.js#xfbml=1&appId=207267112771977";
+    fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
 
+<!-- Header -->
 <div class="container">
+  <div class="masthead">
+    <a href="http://loompa.me/" class="top-logo-link">
+      <%= image_tag 'logo_loompa.png', class: 'top-logo' %>
+    </a>
+    <ul class="nav nav-pills pull-right top-nav" style="margin-top: 19px;">
+      <li class="top-nav-item"><a href="http://loompa.me/">HOME</a></li>
+      <li class="top-nav-item"><a href="#porque-loompa">COMO FUNCIONA</a></li>
+      <li class="top-nav-item"><a href="#footer">CONTATO</a></li>
+    </ul>
+  </div>
+</div>
+<!-- Fim - Header -->
 
-  Precisando de diarista, faxineira, babá, organizer, passadeira, cozinheira?
-  <br/>
-  <br/>
-  <span>Registre-se para encontrar a pessoa certa para você:</span>
-  <br/>
-  <%= form_for @cadastrado, :url => {:controller => 'cadastrado', :action => 'create'} do |c| %>
-      <div class="input-append">
-            <%= c.text_field :email, :class => 'span2', :placeholder => 'Digite seu e-mail', :required => 'required' %>
-            <%= c.submit t(:registrar), :class => 'btn btn-success' %>
-      </div><br/>
-      <span class="msg-sucesso"><%= flash[:sucesso] %></span>
-  <% end %>
+<!-- Form -->
+
+<div class="form">
+
+  <h1>
+    <i>Busque serviços.</i>
+    <br/>
+    <i>Encontre facilidades.</i>
+  </h1>
+
+  <div class="title"></div>
+  <div class="subtitle"></div>
+
+  <div class="cadastro">
+    <h4>
+      <i>Cadastre-se para saber quando</i>
+      <br/>
+      <i>começaremos as nossas atividades e</i>
+      <br/>
+      <i>ainda receba novidades e promoções.</i>
+    </h4>
+    <%= form_for @cadastrado, :url => {:controller => 'cadastrado', :action => 'create'} do |c| %>
+
+        <%= c.text_field :nome, :class => 'inputs', :placeholder => 'NOME', :required => 'required' %><br/>
+        <%= c.text_field :email, :class => 'inputs', :placeholder => 'E-MAIL', :required => 'required' %><br/>
+
+        <%= c.submit t(:cadastrar), :class => 'btn btn-primary inputs' %><br />
+        <span class="msg-sucesso"><%= flash[:sucesso] %></span>
+    <% end %>
+  </div>
 
 </div>
+
+<!-- Fim - Form -->
+
+<!-- Porque o Loompa -->
+
+<div class="container" id="porque-loompa">
+
+  <div class="row porque-loompa">
+
+    <div class="row span12 center">
+      <h1 style="margin-bottom: 30px">Por que você deve usar o Loompa?</h1>
+      <p>
+        Quantas vezes você já procurou por prestadores de serviço e não encontrou ninguém de confiança para realizar aquele serviço na sua casa? No Loompa você vai encontrar uma lista com os melhores prestadores, mais perto de você.
+      </p>
+    </div>
+
+    <div class="span4">
+      <%= image_tag 'icone_11.png' %>
+      <h2>Busque</h2>
+      <p>Busca simples e intuitiva. Em poucos passos o que procura está na tela.</p>
+    </div>
+    <div class="span4">
+      <%= image_tag 'icone_22.png' %>
+      <h2>Encontre</h2>
+      <p>As empresas com soluções em serviços mais próximas de você. Resultados rápidos e separados por qualificação.</p>
+    </div>
+    <div class="span4">
+      <%= image_tag 'icone_33.png' %>
+      <h2>Contrate</h2>
+      <p>Escolha a empresa de sua preferência e contrate o serviço em apenas 1 clique.</p>
+    </div>
+  </div>
+
+</div>
+
+<!-- Fim - Porque o Loompa -->
+
+<!-- Footer -->
+
+<div class="footer" id="footer">
+  <div class="container">
+    <div class="row">
+      <div class="span3">
+        <h2>Loompa.me</h2>
+        <ul>
+          <li><a href="http://loompa.me/">Home</a></li>
+          <li><a href="#porque-loompa">Como Funciona</a></li>
+          <li><a href="#footer">Contato</a></li>
+        </ul>
+      </div>
+      <div class="span3">
+        <h2>Conecte</h2>
+        <ul>
+          <li class="sociallogo"><a href="https://twitter.com/loompame" target="_blank"><%= image_tag 'twitter.png' %></a></li>
+          <li class="sociallogo"><a href="https://www.facebook.com/soservicos" target="_blank"><%= image_tag 'facebook.png' %></a></li>
+          <li class="sociallogo"><a href="http://www.linkedin.com/company/3366736" target="_blank"><%= image_tag 'linkedin.png' %></a></li>
+        </ul>
+      </div>
+
+      <div class="span3">
+        <h2>Contato</h2>
+
+        <ul>
+          <li>contato@loompa.me</li>
+        </ul>
+
+      </div>
+
+      <div class="span3">
+        <div class="fb-like-box"
+             data-href="https://www.facebook.com/soservicos"
+             data-width="The pixel width of the plugin"
+             data-height="The pixel height of the plugin"
+             data-colorscheme="dark"
+             data-show-faces="true"
+             data-header="true"
+             data-stream="false"
+             data-show-border="true"
+             style="margin-left: 20px"></div>
+      </div>
+
+
+      <div class="span4"> &nbsp; </div>
+      <div class="span9 border">Copyright © 2013 - Loompa.me - Todos os direitos reservados.</div>
+
+    </div>
+  </div>
+</div>
+
+<!-- Fim - Footer -->
+
+<!-- Smooth anchor -->
+<script>
+
+    $(document).ready(function(){
+
+        $('a[href^="#"]').on('click',function (e) {
+            e.preventDefault();
+
+            var target = this.hash,
+                    $target = $(target);
+
+            $('html, body').stop().animate({
+                'scrollTop': $target.offset().top
+            }, 900, 'swing', function () {
+                window.location.hash = target;
+            });
+        });
+
+    });
+
+</script>

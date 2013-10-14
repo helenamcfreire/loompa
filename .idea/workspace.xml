@@ -2,6 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="92469d40-3aa5-4062-b92d-ad24a9f89fdb" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/application-0e7d35e47979442d27b264eb53ebca97.js.gz" afterPath="$PROJECT_DIR$/public/assets/application-0e7d35e47979442d27b264eb53ebca97.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/application-fd966c3ee229d8e02cfd7d303aa23e09.css.gz" afterPath="$PROJECT_DIR$/public/assets/application-fd966c3ee229d8e02cfd7d303aa23e09.css.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/application.css.gz" afterPath="$PROJECT_DIR$/public/assets/application.css.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/application.js.gz" afterPath="$PROJECT_DIR$/public/assets/application.js.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/application.css" afterPath="$PROJECT_DIR$/public/assets/application.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/home/index.html.erb" afterPath="$PROJECT_DIR$/app/views/home/index.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/loompa.css" afterPath="$PROJECT_DIR$/app/assets/stylesheets/loompa.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/manifest.yml" afterPath="$PROJECT_DIR$/public/assets/manifest.yml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="loompa_landing.iws" />
@@ -9,7 +17,7 @@
     <file path="/application.css" changelist="92469d40-3aa5-4062-b92d-ad24a9f89fdb" time="1381173365633" ignored="false" />
     <file path="/a.dummy" changelist="92469d40-3aa5-4062-b92d-ad24a9f89fdb" time="1381176653584" ignored="false" />
     <file path="/Gemfile" changelist="92469d40-3aa5-4062-b92d-ad24a9f89fdb" time="1380994414572" ignored="false" />
-    <file path="/Dummy.txt" changelist="92469d40-3aa5-4062-b92d-ad24a9f89fdb" time="1381709445942" ignored="false" />
+    <file path="/Dummy.txt" changelist="92469d40-3aa5-4062-b92d-ad24a9f89fdb" time="1381716141876" ignored="false" />
     <file path="/index.html" changelist="92469d40-3aa5-4062-b92d-ad24a9f89fdb" time="1380995297031" ignored="false" />
     <file path="/loompa.css" changelist="92469d40-3aa5-4062-b92d-ad24a9f89fdb" time="1381629876157" ignored="false" />
     <file path="/production.rb" changelist="92469d40-3aa5-4062-b92d-ad24a9f89fdb" time="1381001459564" ignored="false" />
@@ -26,14 +34,16 @@
     <file path="/notifier_controller.rb" changelist="92469d40-3aa5-4062-b92d-ad24a9f89fdb" time="1381176320853" ignored="false" />
     <file path="$PROJECT_DIR$/../WeGadget/app/controllers/email_controller.rb" changelist="92469d40-3aa5-4062-b92d-ad24a9f89fdb" time="1381176652253" ignored="false" />
     <file path="/development.rb" changelist="92469d40-3aa5-4062-b92d-ad24a9f89fdb" time="1381177208101" ignored="false" />
-    <file path="/application.html.erb" changelist="92469d40-3aa5-4062-b92d-ad24a9f89fdb" time="1381240245155" ignored="false" />
-    <file path="$PROJECT_DIR$/../../CloneProjects/loompa/app/views/layouts/application.html.erb" changelist="92469d40-3aa5-4062-b92d-ad24a9f89fdb" time="1381241007829" ignored="false" />
+    <file path="/application.html.erb" changelist="92469d40-3aa5-4062-b92d-ad24a9f89fdb" time="1381711877589" ignored="false" />
+    <file path="$PROJECT_DIR$/../../CloneProjects/loompa/app/views/layouts/application.html.erb" changelist="92469d40-3aa5-4062-b92d-ad24a9f89fdb" time="1381712360838" ignored="false" />
     <file path="$PROJECT_DIR$/../../CloneProjects/loompa/app/assets/stylesheets/loompa.css" changelist="92469d40-3aa5-4062-b92d-ad24a9f89fdb" time="1381241345468" ignored="false" />
     <file path="$PROJECT_DIR$/../../CloneProjects/loompa/app/views/home/index.html.erb" changelist="92469d40-3aa5-4062-b92d-ad24a9f89fdb" time="1381454366515" ignored="false" />
     <file path="$PROJECT_DIR$/../../CloneProjects/loompa/.idea/workspace.xml" changelist="92469d40-3aa5-4062-b92d-ad24a9f89fdb" time="1381456135508" ignored="false" />
     <file path="/list.html.erb" changelist="92469d40-3aa5-4062-b92d-ad24a9f89fdb" time="1381335824221" ignored="false" />
     <file path="$PROJECT_DIR$/../../CloneProjects/loompa/app/controllers/cadastrado_controller.rb" changelist="92469d40-3aa5-4062-b92d-ad24a9f89fdb" time="1381336554537" ignored="false" />
-    <file path="$PROJECT_DIR$/../../CloneProjects/loompa/app/views/cadastrado/list.html.erb" changelist="92469d40-3aa5-4062-b92d-ad24a9f89fdb" time="1381336573127" ignored="false" />
+    <file path="$PROJECT_DIR$/../../CloneProjects/loompa/app/views/cadastrado/list.html.erb" changelist="92469d40-3aa5-4062-b92d-ad24a9f89fdb" time="1381711321785" ignored="false" />
+    <file path="$PROJECT_DIR$/../../CloneProjects/loompa/public/assets/application-9302856e47ff465858af02add5ed51b2.css" changelist="92469d40-3aa5-4062-b92d-ad24a9f89fdb" time="1381711459178" ignored="false" />
+    <file path="$PROJECT_DIR$/../../CloneProjects/loompa/public/assets/application.css" changelist="92469d40-3aa5-4062-b92d-ad24a9f89fdb" time="1381711521754" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,26 +67,7 @@
     <favorites_list name="loompa_landing" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="loompa.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/loompa.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="23" selection-start="750" selection-end="750" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html.erb" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/views/home/index.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="32" selection-start="463" selection-end="463" vertical-scroll-proportion="0.529595">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -179,38 +170,6 @@
               <option name="myItemType" value="org.jetbrains.plugins.ruby.rails.projectView.v2.nodes.RailsModuleNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="loompa" />
-              <option name="myItemType" value="org.jetbrains.plugins.ruby.rails.projectView.v2.nodes.RailsProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="loompa_landing" />
-              <option name="myItemType" value="org.jetbrains.plugins.ruby.rails.projectView.v2.nodes.RailsModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Assets" />
-              <option name="myItemType" value="org.jetbrains.plugins.ruby.rails.projectView.v2.nodes.folders.AssetsTopLevelFolderNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="loompa" />
-              <option name="myItemType" value="org.jetbrains.plugins.ruby.rails.projectView.v2.nodes.RailsProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="loompa_landing" />
-              <option name="myItemType" value="org.jetbrains.plugins.ruby.rails.projectView.v2.nodes.RailsModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Assets" />
-              <option name="myItemType" value="org.jetbrains.plugins.ruby.rails.projectView.v2.nodes.folders.AssetsTopLevelFolderNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Images" />
-              <option name="myItemType" value="org.jetbrains.plugins.ruby.rails.projectView.v2.nodes.folders.AssetsPredefinedGroupFolderNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="ProjectPane">
@@ -252,14 +211,14 @@
   <component name="PropertiesComponent">
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="270" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="299" />
-    <property name="recentsLimit" value="5" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="293" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
+    <property name="recentsLimit" value="5" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../CloneProjects/loompa" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="300" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="967" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="975" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="967" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="293" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="291" />
     <property name="GoToClass.includeJavaFiles" value="false" />
@@ -273,8 +232,8 @@
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
     <property name="org.jetbrains.plugins.ruby.i18n.inspection.quickfixes.I18nCreatePropertyDialog" value="en.yml" />
-    <property name="dynamic.classpath" value="false" />
     <property name="Ruby.ViewRefParam.DefaultExtension" value="html.erb" />
+    <property name="dynamic.classpath" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -564,7 +523,11 @@
       <created>1381709450902</created>
       <updated>1381709450902</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="old">
+      <created>1381716148615</created>
+      <updated>1381716148615</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -591,18 +554,18 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32934782" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.5945652" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32934782" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29130435" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32934782" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.15314835" sideWeight="0.53586954" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26254" sideWeight="0.4054348" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26574174" sideWeight="0.70869565" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32934782" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32934782" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32910052" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32934782" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32934782" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32934782" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32934782" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -654,7 +617,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Testando um novo modelo de landing page" />
+    <option name="LAST_COMMIT_MESSAGE" value="old" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -679,6 +642,7 @@
     <MESSAGE value="Criando página que lista todas as pessoas que se cadastraram no Loompa" />
     <MESSAGE value="Mudando o texto do 'Como Funciona'" />
     <MESSAGE value="Testando um novo modelo de landing page" />
+    <MESSAGE value="old" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -758,15 +722,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/loompa.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="23" selection-start="750" selection-end="750" vertical-scroll-proportion="0.0">
+        <state line="198" column="1" selection-start="3472" selection-end="3472" vertical-scroll-proportion="0.8370607">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/home/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="32" selection-start="463" selection-end="463" vertical-scroll-proportion="0.529595">
-          <folding />
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="n#style#0;n#ul#0;n#div#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="e#2112#2125#0" expanded="true" />
+            <element signature="n#style#0;n#h1#0;n#div#0;n#div#0;n#div#3;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#3;n#div#0;n#div#0;n#div#4;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
